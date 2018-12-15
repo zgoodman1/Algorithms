@@ -16,9 +16,10 @@ package sorting_algorithms;
  * 		Average (Big-Theta): O(n^2)
  * 	Space:
  * 		O(1) because there are no additional data structures being used
- * 	Advantage:
- * 		Simplicity. This is one of the most simplistic and easiest to implement
- * 		sorting algorithms.
+ * 
+ * Main Advantage:
+ * 	Simplicity. This is one of the most simplistic and easiest to implement
+ * 	sorting algorithms.
  */
 
 public class BubbleSort extends SortingAlgorithms {
