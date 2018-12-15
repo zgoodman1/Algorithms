@@ -8,6 +8,17 @@ package sorting_algorithms;
  * performed on every element of the array as many times as needed until it is 
  * determined that no swaps were made on a particular iteration, thus the array is
  * sorted.
+ * 
+ * Complexities of this algorithm:
+ * 	Time:
+ * 		Best case scenario (Big-Omega): O(n)
+ * 		Worst case scenario (Big-O): O(n^2)
+ * 		Average (Big-Theta): O(n^2)
+ * 	Space:
+ * 		O(1) because there are no additional data structures being used
+ * 	Advantage:
+ * 		Simplicity. This is one of the most simplistic and easiest to implement
+ * 		sorting algorithms.
  */
 
 public class BubbleSort extends SortingAlgorithms {
